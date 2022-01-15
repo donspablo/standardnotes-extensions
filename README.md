@@ -1,4 +1,7 @@
+![image](https://user-images.githubusercontent.com/6468571/149639830-ebaa5050-9f56-43d6-a0d9-20f0ce043662.png)
 # 100+ Standard Notes Extensions + Themes
+![image](https://user-images.githubusercontent.com/6468571/149639798-bb1da325-4ffb-4fbc-9d67-aef71828f62e.png)
+![image](https://user-images.githubusercontent.com/6468571/149639819-ed408a0d-c677-487c-a50b-fa883d21ed84.png)
 
 ``` https://standardnotes-extensions.netlify.app/index.json ```
 
@@ -80,10 +83,9 @@
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 
-![Standard Notes Extension Repository](../assets/standardnotes.png?raw=true)
-
 ![image](https://user-images.githubusercontent.com/6468571/149639557-8853caee-2e70-430d-a175-7295d7b5729c.png)
 
+![image](https://user-images.githubusercontent.com/6468571/149639851-14a0727b-6880-4bab-ae0a-d218f954c4de.png)
 
 ## Standard Notes Extensions - Self-Hosted Repository
 You can host standard Notes extensions on your own server. This application parses the majority of open-source extensions available from the Standard Notes team, as well as a variety of extensions created by the larger Standard Notes community, in order to generate an extensions repository that can be immediately inserted into Standard Notes Web and Desktop Clients. (https://standardnotes.org/)
@@ -92,6 +94,8 @@ You can host standard Notes extensions on your own server. This application pars
 
 Extensions are listed as `YAML` in the `/extensions` sub-directory, pull a request if you'd like to add yours.
 
+![image](https://user-images.githubusercontent.com/6468571/149639863-0c3bd0f4-2a86-40e8-a65f-2d2e197b7fe9.png)
+
 ### Requirements
 * Python 3
 	* pyyaml module
@@ -99,12 +103,16 @@ Extensions are listed as `YAML` in the `/extensions` sub-directory, pull a reque
 
 ![image](https://user-images.githubusercontent.com/6468571/149639584-7e337957-39e0-45f8-8405-4575c568b072.png)
 
+![image](https://user-images.githubusercontent.com/6468571/149639872-247d7c75-ec3a-401d-8a43-c0f224486bd1.png)
+
 ### Demo
 <p align="center">
 	<img  src="https://github.com/iganeshk/standardnotes-extensions/raw/assets/standardnotes_demo.gif" width="80%" />
 </p>
 
 ![image](https://user-images.githubusercontent.com/6468571/149639590-805697b5-976c-49d8-a89b-bb15942fa2a7.png)
+
+![image](https://user-images.githubusercontent.com/6468571/149639878-a3b6f5f8-26fe-48e5-a52a-74ed1b944537.png)
 
 ### Usage
 
@@ -161,6 +169,8 @@ https://your-domain.com/extensions/index.json
 ```
 * Import the `latest url` for each extension you want to add (for example: `https://your-domaim.com/extensions/bold-editor/index.json`) into the Standard Notes Web Desktop client under the `General` > `Advanced Settings` > `Install Custom Extension` menu. (Note: Enable CORS for your web server respectively, nginx setup provided below)
 
+![image](https://user-images.githubusercontent.com/6468571/149639887-7a855ecf-eddf-4c0e-bf41-b5f6057c4239.png)
+
 ### Docker
 
 * To run this repository via Docker, clone it, build your '.env' file using the given 'env.sample', and optionally add any additional extensions to the '/extensions' directory, as described above.
@@ -175,6 +185,8 @@ $ docker run \
 ```
 
 ![image](https://user-images.githubusercontent.com/6468571/149639633-c61f3bdf-c91f-4329-9f13-59abffaadf95.png)
+
+![image](https://user-images.githubusercontent.com/6468571/149639897-e4188a77-d6d5-4f9a-93ad-61e11d5edd02.png)
 
 #### Docker Compose
 
@@ -218,6 +230,7 @@ $ docker build --no-cache -t standardnotes-extensions:local .
 
 ![image](https://user-images.githubusercontent.com/6468571/149639651-2abaead9-618b-4306-ba74-2d10476f2aea.png)
 
+![image](https://user-images.githubusercontent.com/6468571/149639901-2bc33fcb-1210-40f3-bca2-f3b0d1e2d97b.png)
 
 ### Setup with nginx
 
@@ -256,10 +269,8 @@ $ docker build --no-cache -t standardnotes-extensions:local .
 	}
 ``
 
-# Standard Notes Open Extended 
-A Free Open Source Standard Notes Extensions Repository Hosted via Github Pages.
+![image](https://user-images.githubusercontent.com/6468571/149639907-2f1cb934-1e84-458a-975d-0d1915fb47f3.png)
 
-# Use 
 Add https://kyleburke.net/standard-notes-open-extended or https://raw.githubusercontent.com/kylejbrk/standard-notes-open-extended/gh-pages/index.json as your Extended Activation Code, and click **Submit Code**. 
 
 _Note this currently can only be activated on the Desktop Application_
@@ -274,6 +285,8 @@ In the Extended Activation Code field, replace 'https://raw.githubusercontent.co
 Use ```https://standardnotes-extensions.netlify.app/index.json``` as an *Extended Code* in Standard-Notes.
 
 ![image](https://user-images.githubusercontent.com/6468571/149639673-621a404d-c32e-4a7b-b98a-3196945f7d61.png)
+
+![image](https://user-images.githubusercontent.com/6468571/149639934-0fd6045a-2001-4e33-ba1f-525392256f89.png)
 
 ### Option 2: Fork & Use custom URL (with [Netlify](https://app.netlify.com/))
 
@@ -292,6 +305,8 @@ Use ```https://standardnotes-extensions.netlify.app/index.json``` as an *Extende
 7. After that you can use ```YOUR_SITE_URL/index.json``` as an ```Extended Code```
 
 ![image](https://user-images.githubusercontent.com/6468571/149639683-5ebe0495-ed4d-42da-8e08-e2e712eff9bf.png)
+
+![image](https://user-images.githubusercontent.com/6468571/149639935-cc715b34-544d-4071-9a93-d273d16129aa.png)
 
 ### Option 3: Fork & Use custom URL (without [Netlify](https://app.netlify.com/))
 
@@ -316,7 +331,11 @@ It's easy and recommended to host with Netlify. However if you insist not to use
 
 ![image](https://user-images.githubusercontent.com/6468571/149639690-eb9be239-8988-49c6-8a23-831681f98c76.png)
 
+![image](https://user-images.githubusercontent.com/6468571/149639937-b3609f15-b760-4b8b-afcd-222858b4ec3e.png)
+
 # Acknowledgements
 - Inspired by: https://github.com/iganeshk/standardnotes-extensions and https://github.com/JokerQyou/snextensions
 - https://github.com/peaceiris/actions-gh-pages for deployments
 - https://github.com/standardnotes for all their Extensions
+
+And many many more..
