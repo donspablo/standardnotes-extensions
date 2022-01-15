@@ -9,7 +9,7 @@
 <p align="center">
 
 	``` 
-
+	https://snext.netlify.app/index.json
 	https://standardnotes-extensions.netlify.app/index.json 
 
 	```
