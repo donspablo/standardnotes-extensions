@@ -4,6 +4,7 @@
 # 100+ Standard Notes Extensions + Themes
 ![image](https://user-images.githubusercontent.com/6468571/149639819-ed408a0d-c677-487c-a50b-fa883d21ed84.png)
 
+![image](https://user-images.githubusercontent.com/6468571/149640020-7ff582a8-b8cd-4814-890e-080b3b36762c.png)
 ``` https://standardnotes-extensions.netlify.app/index.json ```
 
 ![image](https://user-images.githubusercontent.com/6468571/149639567-5d31ac82-daba-4984-b3dc-c09783533e2e.png)
