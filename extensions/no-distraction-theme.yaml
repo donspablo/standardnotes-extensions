@@ -1,14 +1,15 @@
 ---
-id: xyz.notes.no-distraction-theme
-npm: sn-no-distraction-theme
-repo_url: https://github.com/standardnotes/no-distraction-theme.git
-index: dist/dist.css
+id: org.standardnotes.theme-no-distraction
+npm: sn-theme-no-distraction
+github: standardnotes/no-distraction-theme
+main: dist/dist.css
 
 name: No Distraction
 content_type: SN|Theme
 area: themes
+version: 1.2.2
 layerable: true
-marketing_url: https://standardnotes.com/features/no-distraction
+marketing_url: https://standardnotes.org/extensions/no-distraction
 description: A theme for focusing on your writing.
 
 dock_icon:

@@ -1,13 +1,14 @@
 ---
-id: xyz.notes.plus-editor
+id: org.standardnotes.plus-editor
 npm: sn-plus-editor
-repo_url: https://github.com/standardnotes/plus-editor.git
-index: dist/index.html
+github: standardnotes/plus-editor
+main: dist/index.html
 
 name: Plus Editor
 content_type: SN|Component
 area: editor-editor
-marketing_url: https://standardnotes.com/features/plus-editor
+version: 1.5.0
+marketing_url: https://standardnotes.org/extensions/plus-editor
 thumbnail_url: https://s3.amazonaws.com/standard-notes/screenshots/models/editors/plus-editor.jpg
 description: From highlighting to custom font sizes and colors, to tables and lists, this editor is perfect for crafting any document.
 flags: []

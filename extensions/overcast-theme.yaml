@@ -1,14 +1,17 @@
 ---
 id: com.ceiphr.overcast
-repo_url: https://github.com/ceiphr/sn-overcast-theme.git
-index: dist/dist.css
+github: ceiphr/sn-overcast-theme
+main: dist/dist.css
 
 name: Overcast
 content_type: SN|Theme
 area: themes
-description: Overcast to become cloudy or dark — just like this theme.
+version: 1.2.2
 marketing_url: https://github.com/ceiphr/sn-overcast-theme
-thumbnail_url: https://raw.githubusercontent.com/ceiphr/sn-overcast-theme/master/preview.png
+thumbnail_url: https://raw.githubusercontent.com/ceiphr/sn-overcast-theme/master/overcast.png
+description: Overcast to become cloudy or dark — just like this theme.
+
+statusBar: dark-content
 dock_icon:
   type: circle
   background_color: "#039be5"
