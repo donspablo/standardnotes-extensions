@@ -91,10 +91,11 @@
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 
-![image](https://user-images.githubusercontent.com/6468571/149639557-8853caee-2e70-430d-a175-7295d7b5729c.png)
-
 ![image](https://user-images.githubusercontent.com/6468571/149639851-14a0727b-6880-4bab-ae0a-d218f954c4de.png)
 
+![image](https://user-images.githubusercontent.com/6468571/149639557-8853caee-2e70-430d-a175-7295d7b5729c.png)
+
+![image](https://user-images.githubusercontent.com/6468571/149640391-6e23edd0-25bd-41d5-8a79-43530cb92604.png)
 
 # Guides
 
@@ -104,6 +105,8 @@
  * [On Linux, install Standard Notes (AppImage)] Return2.net (https://return2.net/dockerize-standard-notes-extensions/)
  * [On Windows, install Standard Notes (AppImage)] (https://tekbyte.net/2020/integrating-standard-notes-into-linux/)\s
  * [How to Make Standard Notes Themes Hosting-Ready] (https://blog.gunderson.tech/29891/how-to-host-standard-notes-themes)
+
+![image](https://user-images.githubusercontent.com/6468571/149640398-6d1b4f68-5c18-4021-ba3b-12ea8c13771f.png)
 
 # Themes and Extensions
 
@@ -137,6 +140,8 @@
  * [No Distraction](https://standardnotes.org/extensions/no-distraction) theme that can be used as a layering theme with other themes. The size of the typeface has also been enhanced.
  * [Lighter with a Single Bulb] (https://github.com/arturolinares/standardnotes-theme-one-lighter) One Dark Darker was created using a bright background (as indicated above). The
  * [Yaru] theme (https://github.com/ceiphr/sn-yaru-theme), which is based on Ubuntu's Yaru Theme, has a black background.
+
+![image](https://user-images.githubusercontent.com/6468571/149640409-b138e138-73bc-4359-aa43-da3bcbed062d.png)
  
 # Organisational
  
@@ -147,6 +152,8 @@
  * [Rich Markdown Editor](https://github.com/outline/rich-markdown-editor) developed by
  * [Outline](https://www.getoutline.com/), and in-line syntax highlighting provided by the
  * [Monaco In addition to GFM, the Plain Textarea, CodeMirror, and Monaco modes all support KaTeX, a table of contents, footnotes, in-line HTML, and emoji codes. In addition to other capabilities, the Monaco mode supports autocompletion, search and replace, and syntax highlighting for over 60 programming languages. The Append Editor has functionality for printing notes as well as individual font sizes, font families, and custom CSS for each note.
+
+![image](https://user-images.githubusercontent.com/6468571/149640421-cdf60600-af1d-42fb-a6f5-17eaadf9d2b1.png)
  
  # Upgrades
  
@@ -158,6 +165,8 @@
  * [Marp](https://marp.app) to build presentation slides.
  * [Music Editor](https://github.com/TheodoreChu/music-editor) is a piece of music editing software. VexTab (https://github.com/0xfe/vextab) and VexFlow (https://github.com/0xfe/vexflow) are music-making applications. (https://github.com/arturolinares/sn-rme) - A fantastic editor made by
  * [Outline](https://www.getoutline.com/) that allows you to create rich markdown documents. 
+
+![image](https://user-images.githubusercontent.com/6468571/149640430-f6a5492f-0f0d-4faf-8727-fbf139bd0e93.png)
  
 # Integration
  
@@ -166,6 +175,8 @@
  * [Kanban Board](https://github.com/tryonlinux/kanban-board-sn) - A simple Kanban-style board editor for Standard Notes.
  * [Kanban Board](https://github.com/tryonlinux/kanban-board-sn) - A Standard Notes Kanban style board editor.
  * [Home Inventory](https://github.com/tryonlinux/Home-Inventory-sn), a Standard Notes extension editor, provides a good and secure way to catalog house inventory (great for insurance needs). A Standard Notes extension editor that allows you to catalog your monetary inventory in a reliable and secure manner. https://github.com/tryonlinux/Coin-Inventory-sn](https://github.com/tryonlinux/Coin-Inventory-sn) There is enormous excitement for numismatists!
+
+![image](https://user-images.githubusercontent.com/6468571/149640437-0296828c-436a-45e7-9ea9-1afb4145f72d.png)
  
 # Tracking
  
@@ -180,6 +191,8 @@
 
 (https://github.com/tryonlinux/pomodoro-sn/) The Pomodoro timer in the Editor's bottom bar can be used to time Standard Notes.
 
+![image](https://user-images.githubusercontent.com/6468571/149640444-03cc3475-4360-46ee-8fe8-3a933fbb3257.png)
+
 
 ### Fonts
  * [SF Professional Text]
@@ -188,13 +201,15 @@
 
 (https://github.com/christianhans/sn-sf-pro-text-font)
 
+![image](https://user-images.githubusercontent.com/6468571/149640459-684035e9-4a00-4fe1-9260-5cd9b91d1de4.png)
 
-## Tools ### Browser
+## Browsers 
  * [Notes Clipper]
  * [Notes Clipper] Web clipper for Standard Notes (https://github.com/johnjones4/Standard-Notes-Clipper) - A browser add-on for Firefox and Chrome that allows you to save web pages to your Standard Notes account. Please take note of the reported
  * [issue](https://github.com/johnjones4/Standard-Notes-Clipper/issues/34).
  * [Note the page title and link] Standard Notes Chrome Extension (https://github.com/mllocs/standard-notes-chrome-extension) - This extension takes a web page's title and link and creates a note with the same title and inserts the link into the note's body.
 
+![image](https://user-images.githubusercontent.com/6468571/149640471-e269872b-695e-4235-afdb-e0271cf4ac2d.png)
 
 ### Command Line (Optional)
  * [standardnotes-fs](https://github.com/tannercollin/standardnotes-fs) - Mount your Standard Notes account as a filesystem and edit your notes in a plain text editor as plain text files. <sub><sup> (
@@ -202,8 +217,10 @@
  * [sn-dotfiles](https://github.com/jonhadfield/sn-dotfiles) - Use Standard Notes to sync and manage dotfiles
  * [Extensions Repository Builder] is an utility for establishing extensions repositories. (https://github.com/iganeshk/standardnotes-extensions) - Host Standard Notes extensions locally or over the Internet.
 
+![image](https://user-images.githubusercontent.com/6468571/149640497-235225a9-a88f-407f-ad32-c1e7090ecf25.png)
 
-This category includes importers, exporters, and converters.
+# Importers, Exporters, and Converters.
+
  * [Day One => Import Notes using Standard Notes] Day one importer (https://github.com/ArneTR/standardnotes) - JSON Export Importer for First Day Standard Notes * With this simple program, you may convert Google KeepTM to StandardNotes. (https://github.com/vantezzen/Google-Keep-to-Standardnotes-Converter) Change the Standardnotes archive to the Google Keep Takeout archive.
  * [simplenote2standardnote](https://github.com/edas/simplenote2standardnote) - Convert a SimpleNote backup to a StandardNote backup while keeping the dates and tags intact.
  * [onestandard](https://github.com/oxhacks/onestandard) Create OneNote notebooks and export them to the Standard Notes format. 'Notexfr' (https://github.com/rafaelespinoza/notexfr) is a data conversion and adaptation tool for transferring data across note-taking systems. NodeJS converter for Google Keep to Standard Notes (https://gist.github.com/lzambarda/5e6cebd8356d3a2b5a2de01068745f5b) - This is a simple script that converts a Google Keep Takeout export into a descrypted Standard Notes backup.
@@ -212,11 +229,13 @@ This category includes importers, exporters, and converters.
  * [Yarle - Evernote to Markdown Conversion]
  * [Yarle - Evernote to Markdown Conversion] Yarle (https://github.com/akosbalasko/yarle) is a cross-platform desktop program that converts Evernote notebooks (enex files) to Markdown format. It can be entirely customized.
 
+![image](https://user-images.githubusercontent.com/6468571/149640479-1d63c06a-cfad-42c9-b18c-0b2723d595a4.png)
 
 ## Book collections
  * [gosn-v2](https://github.com/jonhadfield/gosn-v2) - A Go programming language library * The acronym
  * [Standard File Client Library] stands for Standard File Client Library. (https://godoc.org/github.com/mdouchement/standardfile/pkg/libsf) - A Go-based library
 
+![image](https://user-images.githubusercontent.com/6468571/149640504-e14144f2-d33a-498b-82ff-e8f2e1fa4722.png)
 
 ## Servers
 
@@ -228,18 +247,24 @@ This category includes importers, exporters, and converters.
  * [Standard Notes and Docker] Formalized paraphrase
  * [Standard Notes and Docker] Formalized paraphrase (https://github.com/mdouchement/standardnotes) Standard File Server Containerization (SFS). To be used in configuring your own version of the Standard Notes server.
 
+![image](https://user-images.githubusercontent.com/6468571/149640518-33c41f24-d92c-4e36-b701-3d3d44c4728b.png)
 
-Customers ## (https://github.com/standardnotes/forum/issues/1135) In this article, we'll look at a local-first client written in Rust and GTK that works with any server and allows for offline editing. <sub><sup> (
+## Customers
+
+(https://github.com/standardnotes/forum/issues/1135) In this article, we'll look at a local-first client written in Rust and GTK that works with any server and allows for offline editing. <sub><sup> (
  * [Only available for SN version 003] ) (VERSIONS.md "Incompatible with version 004 accounts, which were created or upgraded after November 2020")) </sub></sup>
 
  * [Flatpak](https://flathub.org/apps/details/org.standardnotes.standardnotes) - An unofficial Flatpak build.
 
-## Themes
+![image](https://user-images.githubusercontent.com/6468571/149640535-dba0fe1f-620c-4b4b-b443-696a5df772db.png)
+
+# Themes
 
  * [Design theme inspired by Dracula] This theme is a Dracula-themed theme for your listed blog (https://github.com/TheVetDev/listed dracula theme). This theme is completely free. Marcoceppi's
  * [Marcokai Theme](https://github.com/marcoceppi/listed-marcokai) is a WordPress theme. A black theme has been added, along with enhanced monokai syntax highlighting. The
  * [Sepia Theme](https://github.com/tda233066/sn listed sepia theme) was made based on the Autobiography theme from Standard Notes.
 
+![image](https://user-images.githubusercontent.com/6468571/149640548-7f7c9e7b-eb67-46d7-ad24-48d4a1389581.png)
 
 ## Standard Notes Extensions - Self-Hosted Repository
 You can host standard Notes extensions on your own server. This application parses the majority of open-source extensions available from the Standard Notes team, as well as a variety of extensions created by the larger Standard Notes community, in order to generate an extensions repository that can be immediately inserted into Standard Notes Web and Desktop Clients. (https://standardnotes.org/)
