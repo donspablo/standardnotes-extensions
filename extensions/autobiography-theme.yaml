@@ -1,0 +1,20 @@
+---
+id: org.standardnotes.theme-autobiography
+npm: sn-theme-autobiography
+github: standardnotes/autobiography-theme
+main: dist/dist.css
+
+name: Autobiography
+content_type: SN|Theme
+area: themes
+version: 1.0.1
+thumbnail_url: https://s3.amazonaws.com/standard-notes/screenshots/models/themes/autobiography.jpg
+description: A theme for writers and readers.
+
+statusBar: dark-content
+dock_icon:
+  type: circle
+  background_color: '#9D7441'
+  foreground_color: '#ECE4DB'
+  border_color: '#9D7441'
+...

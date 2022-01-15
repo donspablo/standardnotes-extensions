@@ -1,0 +1,20 @@
+---
+id: io.github.xthursdayx.sn-gruvbox-muted-theme-blue
+github: xthursdayx/sn-gruvbox-muted-theme
+main: blue/dist/dist.css
+
+name: Gruvbox Muted Theme Blue
+content_type: SN|Theme
+area: themes
+version: 0.0.1
+marketing_url: https://github.com/xthursdayx/sn-gruvbox-muted-theme/
+thumbnail_url: https://raw.githubusercontent.com/xthursdayx/sn-gruvbox-muted-theme/main/blue/blue-screenshot.png
+description: Gruvbox Blue Muted Theme for Standard Notes.
+
+statusBar: dark-content
+dock_icon:
+  type: circle
+  background_color: '#458588'
+  foreground_color: '#3c3836'
+  border_color: '#458588'
+...

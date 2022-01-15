@@ -1,0 +1,19 @@
+---
+id: io.github.xthursdayx.sn-pencil-theme
+github: xthursdayx/sn-pencil-theme
+main: dist/dist.css
+
+name: Pencil Theme
+content_type: SN|Theme
+area: themes
+version: 1.0.3
+marketing_url: https://github.com/xthursdayx/sn-pencil-theme
+description: A dark, writing-oriented theme.
+
+statusBar: dark-content
+dock_icon:
+  type: circle
+  background_color: '#AE422F'
+  foreground_color: '#000000'
+  border_color: '#AE422F'
+...
