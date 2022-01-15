@@ -7,7 +7,16 @@
 
 ![image](https://user-images.githubusercontent.com/6468571/149639567-5d31ac82-daba-4984-b3dc-c09783533e2e.png)
 
-``` https://standardnotes-extensions.netlify.app/index.json ```
+<p align="center">
+
+	``` 
+
+	https://standardnotes-extensions.netlify.app/index.json 
+
+	```
+	
+</p>
+	
 
 ![image](https://user-images.githubusercontent.com/6468571/149640020-7ff582a8-b8cd-4814-890e-080b3b36762c.png)
 
