@@ -174,39 +174,71 @@
 
 
 
-* One of the components is a [Pomodoro Timer].
+* One of the components is a
+ * [Pomodoro Timer] .
 
 
 (https://github.com/tryonlinux/pomodoro-sn/) The Pomodoro timer in the Editor's bottom bar can be used to time Standard Notes.
 
 
-* ### Fonts [SF Professional Text] [SF Professional Text]
+### Fonts
+ * [SF Professional Text]
+ * [SF Professional Text]
 
 
 (https://github.com/christianhans/sn-sf-pro-text-font)
 
 
-## Tools ### Browser * [Notes Clipper] [Notes Clipper] Web clipper for Standard Notes (https://github.com/johnjones4/Standard-Notes-Clipper) - A browser add-on for Firefox and Chrome that allows you to save web pages to your Standard Notes account. Please take note of the reported [issue](https://github.com/johnjones4/Standard-Notes-Clipper/issues/34). [Note the page title and link] Standard Notes Chrome Extension (https://github.com/mllocs/standard-notes-chrome-extension) - This extension takes a web page's title and link and creates a note with the same title and inserts the link into the note's body.
+## Tools ### Browser
+ * [Notes Clipper]
+ * [Notes Clipper] Web clipper for Standard Notes (https://github.com/johnjones4/Standard-Notes-Clipper) - A browser add-on for Firefox and Chrome that allows you to save web pages to your Standard Notes account. Please take note of the reported
+ * [issue](https://github.com/johnjones4/Standard-Notes-Clipper/issues/34).
+ * [Note the page title and link] Standard Notes Chrome Extension (https://github.com/mllocs/standard-notes-chrome-extension) - This extension takes a web page's title and link and creates a note with the same title and inserts the link into the note's body.
 
 
-* ### Command Line (Optional) [standardnotes-fs] (https://github.com/tannercollin/standardnotes-fs) - Mount your Standard Notes account as a filesystem and edit your notes in a plain text editor as plain text files. <sub><sup> ([Only available for SN version 003]) (VERSIONS.md "Incompatible with version 004 accounts, which were created or upgraded after November 2020")) </sub></sup>\s * Sn-cli (https://github.com/jonhadfield/sn-cli): A command line interface for managing notes, tags, and other account operations. [sn-dotfiles] (https://github.com/jonhadfield/sn-dotfiles) - Use Standard Notes to sync and manage dotfiles [Extensions Repository Builder] is an utility for establishing extensions repositories. (https://github.com/iganeshk/standardnotes-extensions) - Host Standard Notes extensions locally or over the Internet.
+### Command Line (Optional)
+ * [standardnotes-fs](https://github.com/tannercollin/standardnotes-fs) - Mount your Standard Notes account as a filesystem and edit your notes in a plain text editor as plain text files. <sub><sup> (
+ * [Only available for SN version 003] ) (VERSIONS.md "Incompatible with version 004 accounts, which were created or upgraded after November 2020")) </sub></sup>\s * Sn-cli (https://github.com/jonhadfield/sn-cli): A command line interface for managing notes, tags, and other account operations.
+ * [sn-dotfiles](https://github.com/jonhadfield/sn-dotfiles) - Use Standard Notes to sync and manage dotfiles
+ * [Extensions Repository Builder] is an utility for establishing extensions repositories. (https://github.com/iganeshk/standardnotes-extensions) - Host Standard Notes extensions locally or over the Internet.
 
 
-This category includes importers, exporters, and converters. [Day One => Import Notes using Standard Notes] Day one importer (https://github.com/ArneTR/standardnotes) - JSON Export Importer for First Day Standard Notes * With this simple program, you may convert Google KeepTM to StandardNotes. (https://github.com/vantezzen/Google-Keep-to-Standardnotes-Converter) Change the Standardnotes archive to the Google Keep Takeout archive. [simplenote2standardnote] (https://github.com/edas/simplenote2standardnote) - Convert a SimpleNote backup to a StandardNote backup while keeping the dates and tags intact. [onestandard] (https://github.com/oxhacks/onestandard) Create OneNote notebooks and export them to the Standard Notes format. 'Notexfr' (https://github.com/rafaelespinoza/notexfr) is a data conversion and adaptation tool for transferring data across note-taking systems. NodeJS converter for Google Keep to Standard Notes (https://gist.github.com/lzambarda/5e6cebd8356d3a2b5a2de01068745f5b) - This is a simple script that converts a Google Keep Takeout export into a descrypted Standard Notes backup. [evernote2md] (https://github.com/wormi4ok/evernote2md) - Evernote2md is a command-line tool that converts Evernote notes exported in *.enex format into a markdown-file-containing directory. [TokenVault to Aegis] e94933bb80888e4b7f75df4d90645cbe (https://gist.github.com/kahnwong/e94933bb80888e4b7f75df4d90645cbe) - Export secret keys and account information from Aegis, then use this Python script to format it for the TokenVault Editor. [Yarle - Evernote to Markdown Conversion] [Yarle - Evernote to Markdown Conversion] Yarle (https://github.com/akosbalasko/yarle) is a cross-platform desktop program that converts Evernote notebooks (enex files) to Markdown format. It can be entirely customized.
+This category includes importers, exporters, and converters.
+ * [Day One => Import Notes using Standard Notes] Day one importer (https://github.com/ArneTR/standardnotes) - JSON Export Importer for First Day Standard Notes * With this simple program, you may convert Google KeepTM to StandardNotes. (https://github.com/vantezzen/Google-Keep-to-Standardnotes-Converter) Change the Standardnotes archive to the Google Keep Takeout archive.
+ * [simplenote2standardnote](https://github.com/edas/simplenote2standardnote) - Convert a SimpleNote backup to a StandardNote backup while keeping the dates and tags intact.
+ * [onestandard](https://github.com/oxhacks/onestandard) Create OneNote notebooks and export them to the Standard Notes format. 'Notexfr' (https://github.com/rafaelespinoza/notexfr) is a data conversion and adaptation tool for transferring data across note-taking systems. NodeJS converter for Google Keep to Standard Notes (https://gist.github.com/lzambarda/5e6cebd8356d3a2b5a2de01068745f5b) - This is a simple script that converts a Google Keep Takeout export into a descrypted Standard Notes backup.
+ * [evernote2md](https://github.com/wormi4ok/evernote2md) - Evernote2md is a command-line tool that converts Evernote notes exported in *.enex format into a markdown-file-containing directory.
+ * [TokenVault to Aegis] e94933bb80888e4b7f75df4d90645cbe (https://gist.github.com/kahnwong/e94933bb80888e4b7f75df4d90645cbe) - Export secret keys and account information from Aegis, then use this Python script to format it for the TokenVault Editor.
+ * [Yarle - Evernote to Markdown Conversion]
+ * [Yarle - Evernote to Markdown Conversion] Yarle (https://github.com/akosbalasko/yarle) is a cross-platform desktop program that converts Evernote notebooks (enex files) to Markdown format. It can be entirely customized.
 
 
-## Book collections * [gosn-v2] (https://github.com/jonhadfield/gosn-v2) - A Go programming language library * The acronym [Standard File Client Library] stands for Standard File Client Library. (https://godoc.org/github.com/mdouchement/standardfile/pkg/libsf) - A Go-based library
+## Book collections
+ * [gosn-v2](https://github.com/jonhadfield/gosn-v2) - A Go programming language library * The acronym
+ * [Standard File Client Library] stands for Standard File Client Library. (https://godoc.org/github.com/mdouchement/standardfile/pkg/libsf) - A Go-based library
 
 
-* ## Servers [Another Standardfile] Formalized paraphrase [Another Standardfile]
+## Servers
+
+ * [Another Standardfile] Formalized paraphrase
+ * [Another Standardfile]
 
 
-(https://github.com/mdouchement/standardfile) - A Go-based Standard Notes Server implementation * [Standard Notes and Docker] Formalized paraphrase [Standard Notes and Docker] Formalized paraphrase (https://github.com/mdouchement/standardnotes) Standard File Server Containerization (SFS). To be used in configuring your own version of the Standard Notes server.
+(https://github.com/mdouchement/standardfile) - A Go-based Standard Notes Server implementation
+ * [Standard Notes and Docker] Formalized paraphrase
+ * [Standard Notes and Docker] Formalized paraphrase (https://github.com/mdouchement/standardnotes) Standard File Server Containerization (SFS). To be used in configuring your own version of the Standard Notes server.
 
 
-Customers ## (https://github.com/standardnotes/forum/issues/1135) In this article, we'll look at a local-first client written in Rust and GTK that works with any server and allows for offline editing. <sub><sup> ([Only available for SN version 003]) (VERSIONS.md "Incompatible with version 004 accounts, which were created or upgraded after November 2020")) </sub></sup>
-* [Flatpak] (https://flathub.org/apps/details/org.standardnotes.standardnotes) - An unofficial Flatpak build.
-## Themes * can be found under ### Themes. [Design theme inspired by Dracula] This theme is a Dracula-themed theme for your listed blog (https://github.com/TheVetDev/listed dracula theme). This theme is completely free. Marcoceppi's [Marcokai Theme](https://github.com/marcoceppi/listed-marcokai) is a WordPress theme. A black theme has been added, along with enhanced monokai syntax highlighting. The [Sepia Theme](https://github.com/tda233066/sn listed sepia theme) was made based on the Autobiography theme from Standard Notes.
+Customers ## (https://github.com/standardnotes/forum/issues/1135) In this article, we'll look at a local-first client written in Rust and GTK that works with any server and allows for offline editing. <sub><sup> (
+ * [Only available for SN version 003] ) (VERSIONS.md "Incompatible with version 004 accounts, which were created or upgraded after November 2020")) </sub></sup>
+
+ * [Flatpak](https://flathub.org/apps/details/org.standardnotes.standardnotes) - An unofficial Flatpak build.
+
+## Themes
+
+ * [Design theme inspired by Dracula] This theme is a Dracula-themed theme for your listed blog (https://github.com/TheVetDev/listed dracula theme). This theme is completely free. Marcoceppi's
+ * [Marcokai Theme](https://github.com/marcoceppi/listed-marcokai) is a WordPress theme. A black theme has been added, along with enhanced monokai syntax highlighting. The
+ * [Sepia Theme](https://github.com/tda233066/sn listed sepia theme) was made based on the Autobiography theme from Standard Notes.
 
 
 ## Standard Notes Extensions - Self-Hosted Repository
