@@ -2,6 +2,8 @@
 
 ``` https://standardnotes-extensions.netlify.app/index.json ```
 
+![image](https://user-images.githubusercontent.com/6468571/149639567-5d31ac82-daba-4984-b3dc-c09783533e2e.png)
+
 --------------------------------------------------------------------------------------------------------------
 | Extensions:                                            |   | Location:                                     |
 |--------------------------------------------------------|---|-----------------------------------------------|
@@ -80,8 +82,13 @@
 
 ![Standard Notes Extension Repository](../assets/standardnotes.png?raw=true)
 
+![image](https://user-images.githubusercontent.com/6468571/149639557-8853caee-2e70-430d-a175-7295d7b5729c.png)
+
+
 ## Standard Notes Extensions - Self-Hosted Repository
 You can host standard Notes extensions on your own server. This application parses the majority of open-source extensions available from the Standard Notes team, as well as a variety of extensions created by the larger Standard Notes community, in order to generate an extensions repository that can be immediately inserted into Standard Notes Web and Desktop Clients. (https://standardnotes.org/)
+
+![image](https://user-images.githubusercontent.com/6468571/149639579-a0e825b7-a549-48e3-8082-95590f84640f.png)
 
 Extensions are listed as `YAML` in the `/extensions` sub-directory, pull a request if you'd like to add yours.
 
@@ -90,10 +97,14 @@ Extensions are listed as `YAML` in the `/extensions` sub-directory, pull a reque
 	* pyyaml module
 	* requests module
 
+![image](https://user-images.githubusercontent.com/6468571/149639584-7e337957-39e0-45f8-8405-4575c568b072.png)
+
 ### Demo
 <p align="center">
 	<img  src="https://github.com/iganeshk/standardnotes-extensions/raw/assets/standardnotes_demo.gif" width="80%" />
 </p>
+
+![image](https://user-images.githubusercontent.com/6468571/149639590-805697b5-976c-49d8-a89b-bb15942fa2a7.png)
 
 ### Usage
 
@@ -111,6 +122,8 @@ $ https://github.com/settings/tokens
 
 * Use the provided [`env.sample`](../env.sample) to create a `.env` file for your environment variables and including your Github personal access token.
 
+![image](https://user-images.githubusercontent.com/6468571/149639601-b22da1e9-72ab-445d-862c-dfb20cdf6a15.png)
+
 ```
 # Sample ENV setup Variables (YAML)
 # Copy this file and update as needed.
@@ -123,6 +136,8 @@ $ https://github.com/settings/tokens
 # No additional permission required, this is just to avoid github api rate limits
 #
 
+![image](https://user-images.githubusercontent.com/6468571/149639607-1c6ad3b6-e7d1-4050-b29f-afea016addfe.png)
+
 domain: https://your-domain.com/extensions
 
 github:
@@ -130,6 +145,8 @@ github:
   token: TOKEN
 
 ```
+
+![image](https://user-images.githubusercontent.com/6468571/149639619-50d97b76-2f57-4c9d-a4fa-cfb0035285ac.png)
 
 * [Optional] Add more extensions to the `/extensions` directory, using the `YAML` sample templates for [extensions](../extension.yaml.sample) or [themes](../theme.yaml.sample), or modify any existing extensions.
 * Run the utility:
@@ -157,6 +174,8 @@ $ docker run \
   iganesh/standardnotes-extensions
 ```
 
+![image](https://user-images.githubusercontent.com/6468571/149639633-c61f3bdf-c91f-4329-9f13-59abffaadf95.png)
+
 #### Docker Compose
 
 Although the exact configuration for using the container with docker-compose will be somewhat specific to your configuration, the following snippet may be useful, assuming that you have already cloned this repository into your '$HOME' directory and followed the instructions regarding creating the '.env' file and creating a directory called '/extensions':
@@ -183,6 +202,8 @@ volumes:
     name: standardnotes-extensions
 ```
 
+![image](https://user-images.githubusercontent.com/6468571/149639641-e7c70779-04ef-47ba-b78c-79fb358a411e.png)
+
 As demonstrated in the instructions below, this snippet will manage the extension creation container's construction and store the result in the "standardnotes-extensions" volume, which can subsequently be mounted in the nginx container for service. Keep in mind that the "restart: "no"" flag is essential since the container is expected to terminate after completing the extension creation process and so must be included.
 
 Additionally, please keep in mind that the configuration snippet above is far from complete: you will still need to configure the Nginx container and start the synchronizing server containers after completing the above configuration.
@@ -194,6 +215,9 @@ You can construct the container using the following command: Clone this reposito
 ```bash
 $ docker build --no-cache -t standardnotes-extensions:local .
 ```
+
+![image](https://user-images.githubusercontent.com/6468571/149639651-2abaead9-618b-4306-ba74-2d10476f2aea.png)
+
 
 ### Setup with nginx
 
@@ -249,6 +273,8 @@ In the Extended Activation Code field, replace 'https://raw.githubusercontent.co
 
 Use ```https://standardnotes-extensions.netlify.app/index.json``` as an *Extended Code* in Standard-Notes.
 
+![image](https://user-images.githubusercontent.com/6468571/149639673-621a404d-c32e-4a7b-b98a-3196945f7d61.png)
+
 ### Option 2: Fork & Use custom URL (with [Netlify](https://app.netlify.com/))
 
 1. Fork this repo [benjaminjacobreji/standardnotes-extensions](https://github.com/benjaminjacobreji/standardnotes-extensions/fork)
@@ -264,6 +290,8 @@ Use ```https://standardnotes-extensions.netlify.app/index.json``` as an *Extende
 6. (Optional) Change Site name at ```Site settings > Change site name``` on Netlify
 
 7. After that you can use ```YOUR_SITE_URL/index.json``` as an ```Extended Code```
+
+![image](https://user-images.githubusercontent.com/6468571/149639683-5ebe0495-ed4d-42da-8e08-e2e712eff9bf.png)
 
 ### Option 3: Fork & Use custom URL (without [Netlify](https://app.netlify.com/))
 
@@ -285,6 +313,8 @@ It's easy and recommended to host with Netlify. However if you insist not to use
 
 8. To ensure that your reverse proxy (nginx, caddy, or traefik) functions properly, you must enable CORS headers. The following rules will sufficient when using nginx:
 "'nginx add header 'Access-Control-Allow-Origin' '*'; add header 'Access-Control-Allow-Headers' 'content-type'; "'nginx add header 'Access-Control-Allow-Headers' 'content-type';
+
+![image](https://user-images.githubusercontent.com/6468571/149639690-eb9be239-8988-49c6-8a23-831681f98c76.png)
 
 # Acknowledgements
 - Inspired by: https://github.com/iganeshk/standardnotes-extensions and https://github.com/JokerQyou/snextensions
