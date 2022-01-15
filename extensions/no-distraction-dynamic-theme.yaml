@@ -1,6 +1,6 @@
 ---
 id: com.iganesh.theme-no-distraction-dynamic
-github: donPabloNow/sn-theme-no-distraction-dynamic
+github: iganeshk/sn-theme-no-distraction-dynamic
 main: dist/dist.css
 
 name: No Distraction (Dynamic)
