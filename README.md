@@ -482,7 +482,7 @@ $ docker build --no-cache -t standardnotes-extensions:local .
 		   add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
 		}
 	}
-``
+```
 
 ![image](https://user-images.githubusercontent.com/6468571/149639907-2f1cb934-1e84-458a-975d-0d1915fb47f3.png)
 
