@@ -9,6 +9,8 @@
 <p align="center">
 
 	``` 
+	
+	https://raw.githubusercontent.com/donPabloNow/standardnotes-extensions/main/index.json
 	https://snext.netlify.app/index.json
 	https://standardnotes-extensions.netlify.app/index.json 
 
